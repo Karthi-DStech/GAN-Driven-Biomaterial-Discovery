@@ -1,11 +1,11 @@
-# Welcome to [AI-based Advancements for Biomaterial Discovery: Comparative Analysis of GAN Models in Topography Generation]
+<h2>Welcome to [AI-based Advancements for Biomaterial Discovery: Comparative Analysis of GAN Models in Topography Generation]</h2>
 
-## Hello and thank you for visiting the repository of [GANs-for-BIO-MATERIAL-DISCOVERY]! This project is dedicated to exploring the innovative application of Generative Adversarial Networks (GANs) for Bio-Material Discovery. 
+<h3>Thank you for visiting the repository of [GANs-for-BIO-MATERIAL-DISCOVERY]! This project is dedicated to exploring the innovative application of Generative Adversarial Networks (GANs) for Bio-Material Discovery.</h3>
 
 <h3>This Repository includes detailed documentation, source code, and results from our research.</h3>
 
 
-IN THIS READ ME FILE, USERS CAN FIND STEP BY STEP INSTRUCTIONS AND FEEL FREE TO EXPLORE.
+**IN THIS READ ME FILE, USERS CAN FIND STEP BY STEP INSTRUCTIONS AND FEEL FREE TO EXPLORE.**
 
 - In the **IEEE Research Paper folder**, users can find the research paper.
 
