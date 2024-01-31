@@ -32,15 +32,16 @@
 
 **INSTRUCTIONS FOR ACTIVATING TENSORBOARD**
 
-- The Instructions for Tensor board when using in Laptop or HPC are given below
-- Install Tensor board if doesn't.
-- The summary writer will create the summary called logs or runs in the same directory of the notebook.
-- Go to the same directory using Command Line Interface (for eg- cd [directory location fo the file].
-- Run the below command and alter the command according to the created summary file.
+- Guidelines for utilizing TensorBoard on a laptop or HPC are as follows:
+- Ensure TensorBoard is installed.
+- The summary writer will generate a directory named 'logs' or 'runs' within the same location as the notebook.
+- Navigate to the directory containing the TensorBoard logs using the Command Line Interface (CLI), for example, cd [path_to_directory].
+- Execute the following command, modifying it to match the name of your generated summary file.
 
 tensorboard --logdir=runs
 
-- A link will be shown in the CLI. Click that and tensor board will be popped up in the browser.
+- A link will be displayed in the command-line interface. Click on it to open the tensorboard in your browser or copy and paste the link.
+- If you are using Google Colab, Just run the notebook and the tensorboard will be activated automatically. 
 
 
 **Other Instructions**
