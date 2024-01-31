@@ -45,4 +45,4 @@ Preprocessing Coding Files
     └── Focused on upscaling images and evaluating topographies with dimensions under 100.
 
 
-In the **Preprocessed for FID Score** folder, users will find images that have been cropped to their specific sizes in line with the requirements for calculating the Fréchet Inception Distance (FID) Score. Each folder within is named to correspond with the specific GAN combination used in the coding notebooks. 
+- In the **Preprocessed for FID Score** folder, users will find images that have been cropped to their specific sizes in line with the requirements for calculating the Fréchet Inception Distance (FID) Score. Each folder within is named to correspond with the specific GAN combination used in the coding notebooks. 
