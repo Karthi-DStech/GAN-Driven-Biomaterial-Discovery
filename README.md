@@ -17,32 +17,35 @@
 
 - For the **GANs-generated topographic images**, navigate to the "GANs - Generated Topographic Images" folder. Within this directory, you will find subfolders named after each specific GAN variant. For further information, check the tree map below.
 
-GANs - Generated Topographic Images/
-├── Vanilla-GANs/  
-│    
-├── C-GANs/ 
-│   
-├── DC-GANs/   
-│   
-└── WGANs/
+ <img width="275" alt="Screenshot 2024-01-31 at 09 57 21" src="https://github.com/Karthi-DStech/GANs-for-BIO-MATERIAL-DISCOVERY/assets/126179797/f4cfb293-c511-4c82-938f-79117db3d0e3">
+
+
+- In the **Preprocessing Coding Files directory**, users will find a collection of Jupyter notebooks designed to handle various stages of image processing and analysis for biomaterial data. For further information, check the below tree map.
+
+<img width="716" alt="Screenshot 2024-01-31 at 09 57 55" src="https://github.com/Karthi-DStech/GANs-for-BIO-MATERIAL-DISCOVERY/assets/126179797/6b96c405-aff7-4f96-8d25-64bf97fb8995">
 
 
 
-- In the **Preprocessing Coding Files directory**, users will find a collection of Jupyter notebooks designed to handle various stages of image processing and analysis for biomaterial data. For further information, check the below tree map. 
-
-Preprocessing Coding Files
-├── Analysing the Preprocessed Bio Data.ipynb
-│   └── Analysis of preprocessed images.
-├── Data Augmentation for Bio Materials.ipynb
-│   └── Application of data augmentation and transformations to images.
-├── Preprocessing Bio Material Data.ipynb
-│   └── Preparation and analysis of gradient-applied images.
-├── Preprocessing EDGE DETECTION.ipynb
-│   └── Creation of gradient-applied images for edge detection purposes.
-├── Preprocessing Images for Calculating the FID Score.ipynb
-│   └── Preparation of images specifically for Fréchet Inception Distance (FID) Score calculation.
-└── Upscaling and Evaluating the topo below 100.ipynb
-    └── Focused on upscaling images and evaluating topographies with dimensions under 100.
+- In the **Preprocessed for FID Score** folder, users will find images that have been cropped to their specific sizes in line with the requirements for calculating the Fréchet Inception Distance (FID) Score. Each folder within is named to correspond with the specific GAN combination used in the coding notebooks.
 
 
-- In the **Preprocessed for FID Score** folder, users will find images that have been cropped to their specific sizes in line with the requirements for calculating the Fréchet Inception Distance (FID) Score. Each folder within is named to correspond with the specific GAN combination used in the coding notebooks. 
+
+**INSTRUCTIONS FOR ACTIVATING TENSORBOARD**
+
+- The Instructions for Tensor board when using in Laptop or HPC are given below
+- Install Tensor board if doesn't.
+- The summary writer will create the summary called logs or runs in the same directory of the notebook.
+- Go to the same directory using Command Line Interface (for eg- cd [directory location fo the file].
+- Run the below command and alter the command according to the created summary file.
+
+tensorboard --logdir=runs
+
+- A link will be shown in the CLI. Click that and tensor board will be popped up in the browser.
+
+
+**Other Instructions**
+
+- Ensure you have all the required libraries installed before running the notebooks.
+- Modify parameters and paths as needed to fit your specific dataset and requirements.
+- Make sure all the notebooks and the data folder are in same Directory.
+- Each dataset is zipped for compact storage and needs to be uncompressed before use.
