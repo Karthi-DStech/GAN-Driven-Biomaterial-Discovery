@@ -7,7 +7,7 @@
 
 **IN THIS READ ME FILE, USERS CAN FIND STEP BY STEP INSTRUCTIONS AND FEEL FREE TO EXPLORE.**
 
-- In the **IEEE Research Paper folder**, users can find the research paper.
+- In the **IEEE Research Paper folder**, users can find the research paper. 
 
 
 
