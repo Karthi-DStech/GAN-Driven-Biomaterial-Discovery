@@ -1,4 +1,10 @@
+# Generative Adversarial Networks-for-Biomaterial-Discovery
 
+
+**GANs for Image Generation using Biomaterial Topography Dataset**
+
+
+This project contains the code to train a suite of GAN Variants for Biomaterial Discovery. It includes a PyTorch implementation of the U-Net model, several building blocks used in the model architecture, and scripts for training and logging.
 
 
 
