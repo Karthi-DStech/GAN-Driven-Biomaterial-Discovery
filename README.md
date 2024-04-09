@@ -16,6 +16,10 @@ This project contains the code to train a suite of GAN Variants for Biomaterial 
     - `train_options.py`: Hyperparameter Command-line arguments for the training script.
 - `utils/`:
     - `images_utils.py`: Utilities for image handling.
+    - custom_layers.py`: This file contains custom layers used in the GAN architecture.
+    - losses.py`: This file contains loss functions used in the GAN training process.
+    - tb_visualizer.py`: This file provides a TensorBoard visualizer for monitoring GAN training progress.
+    - utils.py`:  This file contains various utility functions used in the GAN project.
 - `train.py`: Script for training the model without TensorBoard logging.
 - `updated_train.py`: Script for training the model with TensorBoard logging.
 
