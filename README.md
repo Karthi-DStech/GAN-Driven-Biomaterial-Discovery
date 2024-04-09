@@ -28,3 +28,19 @@ This project contains the code to train a suite of GAN Variants for Biomaterial 
 
 ### Requirements
 
+To run the code, you need the following:
+
+- Python 3.8 or above
+- PyTorch 1.7 or above
+- torchvision
+- tqdm
+- matplotlib
+- TensorboardX 2.7.0
+
+Install the necessary packages using pip:
+
+
+### Dataset
+
+The training scripts are set up to use the Biomaterial dataset with 2176 Samples, which are loaded from the local machine. If you wish to use a different dataset, you'll need to modify the `images_utils.py` file and potentially the training scripts to handle your dataset's loading and processing.
+
