@@ -11,8 +11,14 @@ This project contains the code to train a suite of GAN Variants for Biomaterial 
 ### Project Structure
 
 - `models/`:
-    - `base_options.py`: Basic Command-line arguments for the training script.
-    - `train_options.py`: Hyperparameter Command-line arguments for the training script.
+    - `acgan.py`: Implementation of Auxiliary Classifier GAN (ACGAN) model with convo layers.
+    - `acvanilla.py`: Implementation of the vanilla ACGAN model.
+    - `discriminators.py`: Implementation of various discriminator networks used in the GAN architecture.
+    - `generators.py`: Implementation of various generator networks used in the GAN architecture.
+    - `models.py`: Implementation of Base Model (parent) definitions and configurations for the GAN architecture.
+    - `networks.py`: Implementation of Base Network (parent) definitions and configurations for the GAN architecture.
+    - `vanillagan.py`: Implementation of vanilla GAN model.
+    - `wgan.py`: Implementation of Wasserstein GAN (WGAN) and WGAN-GP model.
 
 - `options/`:
     - `base_options.py`: Basic Command-line arguments for the training script.
