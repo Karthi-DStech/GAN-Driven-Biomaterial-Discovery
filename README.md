@@ -11,7 +11,8 @@ This project contains the code to train a suite of GAN Variants for Biomaterial 
 ### Project Structure
 
 - `GANs - Generated Topographic Images/`: In this file, GANs-generated Images can be found.
-- `GANs - Generated Topographic Images/`:
+  
+- `Launch/`: This file contains bash scripts where we can parse the custom training options. 
 
 - `models/`:
     - `acgan.py`: Implementation of Auxiliary Classifier GAN (ACGAN) model with convo layers.
