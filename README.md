@@ -57,3 +57,6 @@ Install the necessary packages using pip:
 
 The training scripts are set up to use the Biomaterial dataset with 2176 Samples, which are loaded from the local machine. If you wish to use a different dataset, you'll need to modify the `images_utils.py` file and potentially the training scripts to handle your dataset's loading and processing.
 
+
+### Work in Progress -> WGAN-GP, Vanilla WGAN-GP and Hyperparameter Tuning📌
+
