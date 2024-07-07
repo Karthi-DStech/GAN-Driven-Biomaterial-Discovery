@@ -36,8 +36,10 @@ This project contains the code to train a suite of GAN Variants for Biomaterial 
     - `utils.py`:  This file contains scripts for various utility functions used in the GAN project.
     - `weights_init.py`: This file contains scripts for weight initialization functions for the GAN architecture.
 
-- `train.py`: Script for training the model without TensorBoard logging.
 - `call_methods.py`: This file contains scripts for dynamically creating models, networks, datasets, and data loaders based on provided names and options.
+- `train.py`: Script for training the model with TensorBoard logging.
+- `predict.py`: Script for generating the biomaterial images without "No-Grad".
+- `evalaute.py`: Scripts for evaluating the GAN-generated images using FID Scores.
 
 ### Requirements
 
@@ -58,5 +60,4 @@ Install the necessary packages using pip:
 The training scripts are set up to use the Biomaterial dataset with 2176 Samples, which are loaded from the local machine. If you wish to use a different dataset, you'll need to modify the `images_utils.py` file and potentially the training scripts to handle your dataset's loading and processing.
 
 
-### Work in Progress -> WGAN-GP, Vanilla WGAN-GP and Hyperparameter Tuning📌
 
